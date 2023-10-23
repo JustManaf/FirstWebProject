@@ -5,15 +5,66 @@ thead tr {
 a {
     color: green;
     text-decoration: none;
-    cursor: pointer;
 }
+
 .top {
     background-color: #ECAA4D;
 }
+
 em {
     background-color: blue;
 }
+
 #the_most_important {
     text-transform: uppercase;
     background-color: gold;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+
+h2 + p::first-letter{
+    font-size: x-large;
+}
+
+tr:hover td {
+    background-color: #ffcccb;
+}
+
+nav li {
+    display: inline;
+    padding-left: 25px;
+}
+
+nav li:first-child a{
+    text-decoration: underline;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(89, 2, 2);
+}
+
+::selection {
+    background-color: rgb(166, 17, 3);
+}
+
+a:not(header):hover {
+    cursor:pointer;
+}
+
+input{
+    height: 20px;
+}
+
+input[type="text"]{
+    border-color: rgb(211, 211, 211);
+}
+
+input[id="name"]{
+    height: 50px;
 }
