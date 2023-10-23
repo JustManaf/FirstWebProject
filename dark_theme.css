@@ -8,7 +8,6 @@ img {
 }
 
 a {
-    color: lightblue;
     text-decoration: none;
 }
 
@@ -18,8 +17,4 @@ a:hover {
 
 nav li {
     display: inline;
-}
-
-a:visited {
-    color: peru;
 }
