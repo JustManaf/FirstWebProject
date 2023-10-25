@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body{
+    color: #C0C5D0;
+    /* Text md/Normal */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    background: #090D1F;
+}
+
+main{
+    padding: 0px 32px;
+}
+
+img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+h2{ 
+    color: #FFF;
+    /* Display xs/Semibold */
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem; /* 133.333% */
+}
+
+.date{
+    color: #6941C6;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.blog-post .tags li{
+    display: inline;
+    color: #6941C6;
+    text-align: center;
+    /* Text sm/Medium */
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    padding: 2px 10px;
+    background-color: #F9F5FF;
+    border-radius: 16px;
+}
+
+ul {
+    padding-left: 0px;;
+}
+
+.blog-post > *{
+    margin: 12px 0px;
+}
+.pagination{
+    border-top: 1px solid rgba(234, 236, 240, 0.34);
+    color: #EFEFEF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 142.857% */
+}
+
+footer{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    text-align: center;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    font-size: 0.875em;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+}

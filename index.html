@@ -2,36 +2,109 @@
 <html lang="en">
     <!-- head section-->
     <head>
-        <title>Manaf's Personal Blog</title>
+        <title>Manaf's Blog</title>
         <meta charset="UTF-8">
         <meta name="description" content="Personal blog for a person likes video games and Tv shows and travelling">
         <meta name="keywords" content="Travelling, Games, Movies">
         <meta name="author" content="Manaf Albaqshi">
-        <link rel="stylesheet" href="basic_selector_style.css" type="text/css">
-        <link rel="stylesheet" href="dark_theme.css" type="text/css">
+        <link rel="stylesheet" href="css3Styles.css" type="text/css">
+        <!--<link rel="stylesheet" href="basic_selector_style.css" type="text/css">
+        <link rel="stylesheet" href="dark_theme.css" type="text/css">-->
     </head>
 <!-- body section-->
     <body>
+        <nav>
+            <ul>
+                <li><a href="Details.html" style="margin: 10px;">Details</a></li>
+                <li><a href="WritingSuggestion.html" style="margin: 10px;">Write me a suggestion!</a></li>
+                <li><a href="contactUS.html" style="margin: 10px;">Contact Us!</a> <br></li>
+            </ul>
+        </nav>
         <header>
-            <h1>Manaf's Personal Blog</h1>
-            <nav>
-                <ul>
+            <h1>Manaf's Blog</h1>
+        </header>
+        <main>
+            <h2>Recent blog posts</h2>
+            <section class="blog-post">
+                <img src="src\Screenshot-2023-02-14-at-22.41.46.png" alt="A view of the San siro stadium from a corner inside, viewing fans and the entire stadium.">
+                <div class="date">Wednesday, 25 Oct 2023</div>
+                <h2>An Unforgettable night at San Siro</h2>
+                <p>
+                    On June of 2023, I had the privilege of watching an AC Milan match that was nothing short of a spectacle. The San Siro stadium was buzzing with energy, the air filled with the chants of die-hard Rossoneri fans.
+                     <em>As the AC Milan players took to the pitch,</em> each stride resonated with the hopes and dreams of thousands. The match was a thrilling display of football, with our team showcasing their prowess and strategy. 
+                    There were moments that took our breath away, near misses that had us on the edge of our seats, and a triumphant goal in the dying minutes that will be etched in our memories forever. The roar of the crowd when the final whistle blew was a testament to the love for this beautiful game.
+                     It was not just a match, <em id="the_most_important">it held a farewell of one of our legends Zalatan Ibrahimovic,</em> all fans were chanting his name for a last time in their home and in football generally. It was a testament of Rossoneri sad and happy emotions.
+                </p>
+                <ul class="tags">
                     <li>
-                        <a href="Details.html" style="margin: 10px;">Details</a>
+                        <a>AC Milan</a>
                     </li>
                     <li>
-                        <a href="WritingSuggestion.html" style="margin: 10px;">Write me a suggestion!</a>
+                        <a>San Siro</a>
                     </li>
                     <li>
-                        <a href="contactUS.html" style="margin: 10px;">Contact Us!</a> <br>
+                        <a>Football</a>
                     </li>
                 </ul>
-            </nav>
+            </section>
+            <section class="blog-post">
+                <img src="src\Landscape-Color.jpg" alt="A view of a beutiful mountain surrounded by japan nature.">
+                <div class="date">Wednesday, 25 Oct 2023</div>
+                <h2>Japan’s Majestic Mountains</h2>
+                <p>
+                    Japan is a country rich in mountains, with around three quarters of the country covered by them1. The most iconic of them all is Mount Fuji, standing at 3,776m, and is the tallest mountain in Japan. Other notable mountains include Mount Tsukuba, known for its beauty and hiking trails, and Mount Ontake, the second tallest volcano in Japan.
+                </p>
+                <ul class="tags">
+                    <li>
+                        <a>Nature</a>
+                    </li>
+                    <li>
+                        <a>Japan</a>
+                    </li>
+                    <li>
+                        <a>Mountains</a>
+                    </li>
+                </ul>
+            </section>
+
+            <h2>All blog posts</h2>
+            <section class="blog-post">
+                <img src="src\Picture1.jpg" alt="A drawn photograph of a canal in Venice, italy.">
+                <div class="date">Wednesday, 25 Oct 2023</div>
+                <h2>Venice: The City of Water and Art</h2>
+                <p>
+                    Venice is a city of beauty, history, and culture. It is built on a group of small islands connected by bridges and canals, and has been a major maritime and financial power since the Middle Ages. Venice is famous for its artistic and architectural heritage, such as the Doge’s Palace, St. Mark’s Basilica, and the Peggy Guggenheim Collection.
+                </p>
+                <ul class="tags">
+                    <li>
+                        <a>Italy</a>
+                    </li>
+                    <li>
+                        <a>Venice</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="blog-post">
+                <img src="src\Picture2.jpg" alt="A drawn photograph of a dirt road in a green nature enviornment.">
+                <div class="date">Wednesday, 25 Oct 2023</div>
+                <h2>Green Nature: The Gift of Life and Joy.</h2>
+                <p>
+                    Green nature is a source of life, beauty, and harmony. It provides us with fresh air, clean water, and healthy food, and helps us to relax and enjoy the wonders of creation. Green nature is also a home for many animals and plants, some of which are endangered or unique.
+                </p>
+                <ul class="tags">
+                    <li>
+                        <a>Nature</a>
+                    </li>
+                    <li>
+                        <a>Green</a>
+                    </li>
+                </ul>
+            </section>
+        <!-- The following are being removed due not being part of the new desgin
             <figure>
-                <img src="src/Landscape-Color.jpg" alt="A beautiful view of a lake with a mountain in the background" width="800">
-            </figure>
-        </header>
-        <article>
+            <img src="src/Landscape-Color.jpg" alt="A beautiful view of a lake with a mountain in the background" width="800">
+        </figure>-->
+        <!--<article>
             <h2>Brief</h2>
             <p>This website is a personal journal and dairy.</p>
         </article>
@@ -67,19 +140,24 @@
                     <td class="top">Out of love of the countrie's culture</td>
                 </tr>
             </tbody>
-        </table>
-        <article>
-                <h2>An Unforgettable night at San Siro</h2>
-            <p>On June of 2023, I had the privilege of watching an AC Milan match that was nothing short of a spectacle. The San Siro stadium was buzzing with energy, the air filled with the chants of die-hard Rossoneri fans.
-                 <em>As the AC Milan players took to the pitch,</em> each stride resonated with the hopes and dreams of thousands. The match was a thrilling display of football, with our team showcasing their prowess and strategy. 
-                There were moments that took our breath away, near misses that had us on the edge of our seats, and a triumphant goal in the dying minutes that will be etched in our memories forever. The roar of the crowd when the final whistle blew was a testament to the love for this beautiful game.
-                 It was not just a match, <em id="the_most_important">it held a farewell of one of our legends Zalatan Ibrahimovic,</em> all fans were chanting his name for a last time in their home and in football generally. It was a testament of Rossoneri sad and happy emotions.
-            </p>
-        </article>
+        </table>-->
+        <div class="pagination">
+            <span color="#112211">1</span>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">10</a>
+        </div>
+    </main>
         <footer>
-            <a href="WritingSuggestion.html" style="margin: 10px;">Write me a suggestion!</a>
-            <a href="Details.html" style="margin: 10px;">Details</a>
-            <a href="contactUS.html" style="margin: 10px;">Contact Us!</a> <br>
+            <menu>
+                <a href="WritingSuggestion.html" style="margin: 10px;">Write me a suggestion!</a>
+                <a href="Details.html" style="margin: 10px;">Details</a>
+                <a href="contactUS.html" style="margin: 10px;">Contact Us!</a> 
+            </menu>
+            <br>
             <small>
                 Copyright © 2023 Manaf Albaqshi. All Rights Reserved.
             </small>
