@@ -3,7 +3,7 @@
 body{
     color: #C0C5D0;
     /* Text md/Normal */
-    font-family: Inter;
+    font-family: 'tajawal', Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -22,7 +22,7 @@ img {
 
 h1{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'tajawal', Inter;
     font-size: 4.5rem;
     font-style: normal;
     font-weight: 700;
@@ -35,7 +35,7 @@ h1{
 h2{ 
     color: #FFF;
     /* Display xs/Semibold */
-    font-family: Inter;
+    font-family: 'tajawal', Inter;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
@@ -43,6 +43,7 @@ h2{
 }
 
 .date{
+    font-family: 'tajawal', Inter;
     color: #6941C6;
     font-size: 0.875rem;
     font-weight: 600;
@@ -82,7 +83,7 @@ ul {
 
 footer{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'tajawal', Inter;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
