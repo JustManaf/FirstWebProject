@@ -9,15 +9,99 @@ body{
     font-weight: 400;
     line-height: 24px; /* 150% */
     background: #090D1F;
+    padding-top: 40px;
 }
 
 main{
     padding: 0px 32px;
 }
 
-img {
+nav li{
+    margin: 0 0.5rem;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateX(-1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul{
+    padding: 0.4rem;
+    color: #ffffff;
+    font-size: 1.125rem;
+    display: flex;
+    list-style: none;
+    gap: 0.875rem;
+}
+
+.navigation li:first-child {
+    text-decoration: underline;
+}
+
+.menu_icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger {
+    display: inline-flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+body a:not(.nav):hover {
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li::after {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.menu:hover .bar {
+    transform: translateX(0.5rem);
+  }
+
+.menu:hover ul li {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.2s;
+}
+  
+.menu:hover ul li:nth-child(2) {
+    transition-delay: 0.4s;
+}
+
+.menu:hover ul li:nth-child(3) {
+    transition-delay: 0.6s;
+}
+
+.menu:hover ul li:nth-child(4) {
+    transition-delay: 0.8s;
+}
+
+.menu:hover ul li:nth-child(5) {
+    transition-delay: 1s;
+}
+
+
+.blog-post img {
     width: 100%;
     max-width: 1000px;
+    position: relative;
+    top:0;
+    left:0;
 }
 
 h1{
@@ -79,6 +163,25 @@ ul {
     font-style: normal;
     font-weight: 500;
     line-height: 1.25rem; /* 142.857% */
+}
+
+.hover-btn{
+	background-color: #F9F5FF;
+	transition: 1.0s ease-in-out;
+    border-style: ridge;
+    border-width: 1px;
+    color: #6941C6;
+    padding: 4px 16px;
+	border-radius: 8px;
+    font-size: 16px;
+    display: inline-block;
+	font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+.hover-btn:hover {
+	background-color: #c399f6;
 }
 
 footer{
