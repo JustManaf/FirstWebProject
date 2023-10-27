@@ -174,7 +174,7 @@ h2{
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 20px; 
-    float:right;
+    float: left;
 }
 
 .blog-post .tags li{
@@ -289,8 +289,8 @@ ul {
   }
 
   aside {
-	position: fixed;
-	right: 5%;
+    position: fixed;
+    right: 5%;
 	bottom: 50%;
 }
 
