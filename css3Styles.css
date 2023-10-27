@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
+@media only screen and (max-width: 768px) {
 body{
     color: #C0C5D0;
     /* Text md/Normal */
@@ -324,4 +324,5 @@ footer a {
     margin-bottom: 14px;
     text-decoration: none;
     color: #FFFFFF;
+}
 }
